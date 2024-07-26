@@ -1,6 +1,4 @@
-Go Fetch Gallery 
-
-is a single-page web application that allows users to view, search, and add favorite dog breeds using the Dog API.
+Go Fetch Gallery is a single-page web application that allows users to view, search, and add favorite dog breeds using the Dog API.
 
 Feature
 
