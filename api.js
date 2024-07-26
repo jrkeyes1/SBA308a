@@ -8,7 +8,7 @@ export const fetchDogs = async (page = 1) => {
       }
     });
     const data = await response.json();
-    console.log('Fetched dogs:', data); // Debugging line
+    console.log('Fetched dogs:', data); 
     return data;
   } catch (error) {
     console.error('Error fetching dogs:', error);
@@ -23,7 +23,7 @@ export const searchBreed = async (breed) => {
       }
     });
     const data = await response.json();
-    console.log('Search breed results:', data); // Debugging line
+    console.log('Search breed results:', data); 
     return data;
   } catch (error) {
     console.error('Error searching breed:', error);
